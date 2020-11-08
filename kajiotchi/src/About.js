@@ -1,13 +1,13 @@
 import childcry from './images/pixelimagechildcry.gif';
 import './App.css';
 
-function App() {
+function About() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={childcry} className="App-logo" alt="logo" />
         <p>
-          Kajiotchi is <em>stuck</em>.
+          Kajiotchi is <em>safe</em>.
         </p>
         <a
           className="App-link"
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;
