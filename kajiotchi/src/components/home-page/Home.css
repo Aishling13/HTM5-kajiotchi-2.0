@@ -1,0 +1,39 @@
+.HomeContainer {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+  }
+
+  .Title {
+    height: 30vh;
+    width: 50vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Logo {
+    width: 80%;
+  }
+
+  .StartButton {
+    background-color: white;
+    height: 10vh;
+    width: 20vw;
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
+}
+
+.ImageBanner{
+    background-color: white;
+    height: 30vh;
+    width: 100vw;
+    margin-bottom: 5vh;
+}

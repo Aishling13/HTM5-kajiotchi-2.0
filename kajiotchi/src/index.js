@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import About from './About';
+import Home from './components/home-page/Home';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 ReactDOM.render(
@@ -19,7 +18,7 @@ ReactDOM.render(
           <About />
         </Route>
         <Route path="">
-          <App />
+          <Home />
         </Route>
       </Switch>
     </Router>
