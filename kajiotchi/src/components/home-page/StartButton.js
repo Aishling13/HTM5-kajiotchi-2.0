@@ -2,7 +2,9 @@ import './Home.css';
 
 function StartButton() {
   return ( 
-    <div className='StartButton'/>
+    <div className='StartButtonContainer'>
+      <a href="/about" className="StartButton">Start</a>
+    </div>
   )
 }
 
