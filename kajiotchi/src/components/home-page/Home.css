@@ -27,7 +27,7 @@
     height: 10vh;
     width: 20vw;
     margin-top: 7.5vh;
-    margin-bottom: 7.5vh;
+    margin-bottom: 12vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,10 +35,11 @@
 }
 
 .ImageBanner{
-    background-color: white;
     height: 30vh;
     width: 100vw;
-    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .StartButton {
@@ -54,4 +55,19 @@
   cursor: pointer;
   width: 80%;
   border-radius: 5px;
+}
+
+.ImageContainer {
+  width: 250px;
+  height: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Image {
+  width: 100%;
+
 }
